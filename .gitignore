@@ -1,0 +1,25 @@
+# Dependencias
+node_modules/
+
+# Salida de compilación y PWA temporal
+dist/
+dev-dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Registros
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Variables de entorno locales (no subir secretos)
+.env
+.env.*
+!.env.example
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

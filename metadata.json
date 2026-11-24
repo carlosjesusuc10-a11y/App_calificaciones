@@ -1,0 +1,6 @@
+{
+  "name": "Mi Control Académico",
+  "description": "Aplicación académica personal para registrar y controlar calificaciones por ciclos escolares, semestres y materias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
