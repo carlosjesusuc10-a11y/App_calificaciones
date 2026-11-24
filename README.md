@@ -37,7 +37,7 @@ Requisitos previos: **Node.js 20+** y **npm**.
 
 ```bash
 # 1. Instalar dependencias
-npm install
+npm install --legacy-peer-deps
 
 # 2. Iniciar servidor de desarrollo (puerto 3000)
 npm run dev
@@ -79,7 +79,7 @@ El repositorio ya incluye el flujo automático en `.github/workflows/deploy.yml`
 
 1. Sube este repositorio a GitHub en la rama `main`.
 2. En tu repositorio ve a **Settings → Pages → Build and deployment** y en **Source** selecciona **GitHub Actions**.
-3. El flujo ejecutará automáticamente `npm install`, `npm run lint`, `npm test`, `npm run build` y publicará la carpeta `dist/`.
+3. El flujo ejecutará automáticamente `npm install --legacy-peer-deps`, `npm run lint`, `npm test`, `npm run build` y publicará la carpeta `dist/`.
 
 ### Opción 2: Cualquier servidor estático gratuito
 
